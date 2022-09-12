@@ -7,9 +7,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <title>Scroll web!</title>
   </head>
-  <body>
+  <body
+    style="position: relative;"
+    data-bs-spy="scroll"
+    data-bs-torget="#navbarScrollspy"
+    data-bs-offset="10"
+    tabindex="0"
+  >
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <nav id="navbarScrollspy" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a href="/" class="navbar-brand">
           <i class="bi bi-bootstrap-fill"></i>
@@ -306,6 +312,12 @@
       </div>
     </section>
     <!-- Suscríbete -->
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark py-5 text-center text-light">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae placeat nisi voluptatem ratione in hic repellat illo odio cupiditate excepturi?</p>
+    </footer>
+    <!-- Footer -->
 
     <!-- Modal 1 -->
     <div class="modal fade" id="modalContainer1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
